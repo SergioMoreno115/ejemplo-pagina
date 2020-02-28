@@ -3,25 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" im="imagen" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" im="imagen" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
 
+    <script src="http://code.jquery.com/jquery-1.11.1.js"
+        integrity="sha256-MCmDSoIMecFUw3f1LicZ/D/yonYAoHrgiep/3pCH9rw=" crossorigin="anonymous"></script>
     <title>Mi Página Web</title>
 </head>
 
 <body>
+    <script src="menu.js"></script>
     <div id="container">
         <header>
+            <div class=menu_bar>
+                <a href="#" class="bt_menu"><span class="icon-menu"></span></a>
+            </div>
             <h1>Mi Página Web</h1>
             <nav>
-                <!-- <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About Me</a></li>
-                </ul> -->
-                <div><a href="#">Home</a></div>
+                <ul>
+                    <li><a href="#"><span class="icon-home3"></span> Home</a></li>
+                    <li><a href="#"><span class="icon-rocket"></span>Projects</a></li>
+                    <li><a href="#"><span class="icon-user-tie"></span>About Me</a></li>
+                </ul>
+                <!-- <div><a href="#">Home</a></div>
                 <div><a href="portfolio.html">Projects</a></div>
-                <div><a href="">About Me</a></div>
+                <div><a href="">About Me</a></div> -->
             </nav>
         </header>
         <main>
@@ -32,21 +41,35 @@
                 <p id="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum inventore sed nam vitae
                     natus, vero
                     voluptatum, animi quis temporibus quod dolorum commodi? Veritatis error placeat quibusdam sunt
-                    voluptatum libero officia.</p>
-                <p id ="final-contect">Comentario</p>
+                    voluptatum libero officia.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga nemo est distinctio! Beatae
+                    vel ea omnis accusamus nisi nostrum a veritatis provident ad vero, porro aliquam ratione, voluptas
+                    reiciendis!
+                </p>
+                
             </article>
+            <div class=final_comment>
+                <a href="#"><span class="icon-bubbles4"></span>Comentario</a>
+            </div>
+
         </main>
         <aside>
             <h3>Otros enlaces interesantes:</h3>
             <ul>
-                <li><a href="">enlace 1</a></li>
-                <li><a href="">enlace 2</a></li>
-                <li><a href="">enlace 3</a></li>
+                <li><a href="#"><span class="icon-link"></span> enlace 1</a></li>
+                <li><a href="#"><span class="icon-link"></span> enlace 2</a></li>
+                <li><a href="#"><span class="icon-link"></span> enlace 3</a></li>
             </ul>
         </aside>
         <!-- <div id="clear-div"></div> -->
         <footer>
-            <h3><a href="mailto: mimail@mail.com">Contact Me</a></h3>
+            <div>
+                <h3>
+                    <a href="#"><span class="icon-phone"></span></a>
+                    <a href="mailto: mimail@mail.com">Contact Me</a>
+                   
+                </h3>
+            </div>
         </footer>
     </div>
 </body>
